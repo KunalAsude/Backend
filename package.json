@@ -2,9 +2,10 @@
   "name": "backend-main",
   "version": "1.0.0",
   "description": "Backend Project",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "backend",
@@ -12,5 +13,8 @@
     "javascript"
   ],
   "author": "Kunal Asude",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
